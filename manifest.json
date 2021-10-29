@@ -5,6 +5,21 @@
     "manifest_version": 3,
     "background": {
         "service_worker": "background.js"
-    }
-
+    },
+    "action": {
+     "default_popup": "popup.html",
+     "default_icon": {
+         "16": "./images/favicon.ico",
+         "32": "./images/favicon.ico",
+         "48": "./images/favicon.ico",
+         "128": "./images/favicon.ico" 
+     }
+    },
+    "icons": {
+        "16": "./images/favicon.ico",
+        "32": "./images/favicon.ico",
+        "48": "./images/favicon.ico",
+        "128": "./images/favicon.ico" 
+    },
+    "permissions": ["storage", "activeTab", "scripting"]
 }
